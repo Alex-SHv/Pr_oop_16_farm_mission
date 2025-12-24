@@ -1,0 +1,52 @@
+{
+    "game": {
+        "start_money": 250,
+        "beds_count": 16
+    },
+    
+    "images": {
+         "base_path": "images"
+   }, 
+   "plants": {
+      "carrot": {
+          "name": "Морковь",
+          "baseGrowTime": 5,
+          "price": 7,
+          "image": {
+                "small": "carrot.png",
+                "big": "carrot_big.png"
+                }           
+        },
+     "tomato": {
+          "name": "Томат",
+          "baseGrowTime": 6, 
+          "price": 9,
+          "image": {
+                  "small": "tomato.png",
+                  "big": "tomato_big.png"
+                   }
+         },
+     "cucumber": {
+          "name": "Огурец",
+          "baseGrowTime": 4,
+          "price": 8,
+          "image": {
+                  "small": "cucumber.png",
+                  "big": "cucumber_big.png"
+                   }
+             }
+      },
+    "fertilizers": {
+        "Обычное": {
+            "price": 10,
+            "multiplier": 0.8
+        },
+        "Супер": {
+            "price": 20,
+            "multiplier": 0.5
+        }
+     }
+   
+}
+
+
